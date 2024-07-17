@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
 const Form = () => {
-    const [title, setTitle] = useState('');
-    const [body, setBody] = useState('');
-    const [media, setMedia] = useState(null);
-    const [scheduledTime, setScheduledTime] = useState(null);
+    const [title, setTitle] = useState(''); // initialized with an empty string
+    const [body, setBody] = useState('');  // initialized with an empty string
+    const [media, setMedia] = useState(null); // remains as null
+    const [scheduledTime, setScheduledTime] = useState(''); // changed from null to empty string
+
 
     const handleSubmit = (e) => {
         e.preventDefault();

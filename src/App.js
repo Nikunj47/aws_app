@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './styles/styles.css';
 import Sidebar from './components/Sidebar';
 import Form from './components/PostForm.js';
 import Preview from './components/Preview.js'
@@ -7,6 +7,7 @@ import Preview from './components/Preview.js'
 const App = () => {
   return (
       <div className="app">
+
         <Sidebar />
         <div className="content">
           <Form />
