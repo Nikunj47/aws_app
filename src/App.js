@@ -7,7 +7,6 @@ import Preview from './components/Preview.js'
 const App = () => {
   return (
       <div className="app">
-
         <Sidebar />
         <div className="content">
           <Form />
